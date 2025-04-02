@@ -1,5 +1,8 @@
 body{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url('images/pawel-czerwinski-z4n8CGRuzOA-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .cat{
@@ -13,9 +16,18 @@ body{
     margin: auto;
 }
 
-header, main, section, article{
+/* header,main, section, article{
     /* border: 1px solid black; */
-    margin: 4px;
+
+
+header{
+    width:90%;
+    margin:auto;
+}
+
+h1{
+    margin-top:0;
+    padding-top:60px;
 }
 
 .two-col article{
@@ -28,5 +40,7 @@ header, main, section, article{
         width: 60%;
         flex-direction: row;
     }
-
+header{
+    text-align: auto;
+}
 }
